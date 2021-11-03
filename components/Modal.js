@@ -150,7 +150,7 @@ function Modal() {
                   <button
                     type="button"
                     disabled={!selectedFile}
-                    className="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-mediom text-white hover:bg-red-700 focus:outline-none focus:ring-offset-2 focus:ring-red-500 sm:text-small disabled:bg-gray-300 disabled:cursor-not-allowed hover:disabled:bg-gray-300"
+                    className="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-mediom text-white hover:bg-red-700 focus:outline-none focus:ring-offset-2 focus:ring-red-500 sm:text-small disabled:bg-gray-300 disabled:cursor-not-allowed"
                     onClick={uploadPost}
                   >
                     {loading ? "Uploading..." : "Upload Post"}
